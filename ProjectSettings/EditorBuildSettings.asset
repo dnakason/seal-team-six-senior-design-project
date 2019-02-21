@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shen's Scenes/Seal 1.unity
     guid: 6c18dcef3108045bda5258d1670f4030
+  - enabled: 1
+    path: Assets/Scenes/Raptor/RaptorDiagnose.unity
+    guid: 361a5ad27e0054017baf51d871563406
   m_configObjects: {}

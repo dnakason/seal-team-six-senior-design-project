@@ -2844,6 +2844,8 @@ GameObject:
   - component: {fileID: 1228207066}
   - component: {fileID: 1228207065}
   - component: {fileID: 1228207064}
+  - component: {fileID: 1228207069}
+  - component: {fileID: 1228207068}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -2933,6 +2935,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1228207068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228207063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90a54f024af84612ad46a2b67f799da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1228207069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228207063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ba026b87e034024a5aded0252609ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242577581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,7 +3278,6 @@ GameObject:
   - component: {fileID: 1691162140}
   - component: {fileID: 1691162139}
   - component: {fileID: 1691162138}
-  - component: {fileID: 1691162141}
   m_Layer: 0
   m_Name: Patient1Button
   m_TagString: Untagged
@@ -3319,7 +3344,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1691162139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1228207068}
+        m_MethodName: LoadRaptorScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1691162139
@@ -3359,18 +3395,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691162136}
   m_CullTransparentMesh: 0
---- !u!114 &1691162141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691162136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90a54f024af84612ad46a2b67f799da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1743757697
 GameObject:
   m_ObjectHideFlags: 0
