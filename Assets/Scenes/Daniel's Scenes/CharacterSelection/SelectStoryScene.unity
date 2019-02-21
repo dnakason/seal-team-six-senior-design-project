@@ -3252,6 +3252,7 @@ GameObject:
   - component: {fileID: 1691162140}
   - component: {fileID: 1691162139}
   - component: {fileID: 1691162138}
+  - component: {fileID: 1691162141}
   m_Layer: 0
   m_Name: Patient1Button
   m_TagString: Untagged
@@ -3358,6 +3359,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691162136}
   m_CullTransparentMesh: 0
+--- !u!114 &1691162141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691162136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90a54f024af84612ad46a2b67f799da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743757697
 GameObject:
   m_ObjectHideFlags: 0
