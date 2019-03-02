@@ -1,18 +1,20 @@
 fileFormatVersion: 2
-guid: 48e5360453d0643a6bd5618156d54244
+guid: c30fb474c09f0486fa536684427dd8eb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 0pounds
-    21300002: 112pounds
-    21300004: 129pounds
-    21300006: 58.1pounds
-    21300008: 13.7pounds
-    21300010: 23.2pounds
-    21300012: 76.4pounds
-    21300014: 84pounds
-    21300016: 27.7pounds
-    21300018: 31.8pounds
-    21300020: 45.9pounds
+    21300000: Raptor1_0
+    21300002: Raptor1_1
+    21300004: Raptor1_2
+    21300006: Raptor1_3
+    21300008: Raptor1_4
+    21300010: Raptor1_5
+    21300012: Raptor1_6
+    21300014: Raptor1_7
+    21300016: Raptor1_8
+    21300018: Raptor1_9
+    21300020: Raptor1_10
+    21300022: Raptor1_11
+    21300024: Raptor1_12
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -139,221 +141,261 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 0pounds
+      name: Raptor1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1046
-        width: 497
-        height: 403
+        x: 46
+        y: 1111
+        width: 855
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7f66d3406fb43deb92b6bd73d53bb1
+      spriteID: 48f0fbf2837f64850b371f0c2804b772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 112pounds
+      name: Raptor1_1
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1046
-        width: 497
-        height: 403
+        x: 1157
+        y: 1111
+        width: 767
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b87a66cad52ce4c3a8b8bab933b17ad7
+      spriteID: 77d392556265c461eaac45f4e7b13fdd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 129pounds
+      name: Raptor1_2
       rect:
         serializedVersion: 2
-        x: 999
-        y: 1046
-        width: 497
-        height: 403
+        x: 2092
+        y: 1111
+        width: 808
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e28daadabf984e189a4d31efda0464f
+      spriteID: b4fdca9e12a1044adb8f936618ad3563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 58.1pounds
+      name: Raptor1_3
       rect:
         serializedVersion: 2
-        x: 1498
-        y: 1046
-        width: 497
-        height: 403
+        x: 3071
+        y: 1111
+        width: 806
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 910419f4cf71c4f6ba6d3a9cd6e85de3
+      spriteID: 902c34ecf069744c986cfd3551d54972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 13.7pounds
+      name: Raptor1_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 547
-        width: 497
-        height: 403
+        x: 3906
+        y: 1783
+        width: 30
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa660475cce7c4c3f9bcb76923adb865
+      spriteID: 8a1bc3b61098f409c9357210980ad423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 23.2pounds
+      name: Raptor1_5
       rect:
         serializedVersion: 2
-        x: 500
-        y: 547
-        width: 497
-        height: 403
+        x: 4094
+        y: 1111
+        width: 806
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 047602f93e0e24cd58d4cd30551fd467
+      spriteID: 4f92ef46111ed439095f03c9eab65d3d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 76.4pounds
+      name: Raptor1_6
       rect:
         serializedVersion: 2
-        x: 999
-        y: 547
-        width: 497
-        height: 403
+        x: 4929
+        y: 1548
+        width: 5
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba794a0775bc04f1fa1974fb44dcd858
+      spriteID: 63fe5a0a6b5e64b75822218cda02fe2a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84pounds
+      name: Raptor1_7
       rect:
         serializedVersion: 2
-        x: 1498
-        y: 547
-        width: 497
-        height: 403
+        x: 46
+        y: 149
+        width: 855
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e22b2cffad99941f5ab31186283f5e0e
+      spriteID: c467cf88729644365ac21b6f4a55ebbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 27.7pounds
+      name: Raptor1_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 48
-        width: 497
-        height: 403
+        x: 1094
+        y: 149
+        width: 803
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728af4e10b39e48568d8820137030d8a
+      spriteID: af0c0fd8918ee47498a403847f3fcd68
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 31.8pounds
+      name: Raptor1_9
       rect:
         serializedVersion: 2
-        x: 500
-        y: 48
-        width: 497
-        height: 403
+        x: 2092
+        y: 149
+        width: 808
+        height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 457aab0cde8184eb4a3bf72ab71cf6a4
+      spriteID: 55adbadf9174f405b9a5179f37dd9262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 45.9pounds
+      name: Raptor1_10
       rect:
         serializedVersion: 2
-        x: 999
-        y: 48
-        width: 497
-        height: 403
+        x: 3093
+        y: 217
+        width: 806
+        height: 674
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b499bb77bd294893abe011682caee1d
+      spriteID: 3db90e7ad47eb4f4489cc3445aadb5ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raptor1_11
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 821
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae038860a7284b35984acd082bdcc7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raptor1_12
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 149
+        width: 806
+        height: 757
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5450e3a02a8f54da3946d715c6b09070
       vertices: []
       indices: 
       edges: []
@@ -361,7 +403,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9699431c05b4b4fcdb4eaa317c8e8b3c
+    spriteID: 29f0d2ed807294865b853783dda97489
     vertices: []
     indices: 
     edges: []

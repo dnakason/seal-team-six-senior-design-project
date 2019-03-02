@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Raptor_Level : MonoBehaviour
 {
+    //loads the Raptor Scene
    public void LoadRaptorScene()
     {
         SceneManager.LoadScene("RaptorDiagnose");

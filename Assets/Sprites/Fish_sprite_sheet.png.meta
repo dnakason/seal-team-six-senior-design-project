@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0182350894f064a8b957f3f3ab59cd2f
+guid: fb1139a0697544e23a2014028acff17a
 TextureImporter:
   fileIDToRecycleName:
     21300000: FIsh_0
@@ -8,7 +8,7 @@ TextureImporter:
     21300006: Fish4
     21300008: FIsh3
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
