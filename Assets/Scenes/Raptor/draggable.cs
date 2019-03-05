@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -13,6 +14,11 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     public static bool slot = false;
     //references weight scale animator
     public Animator animator;
+
+    public void change_scene()
+    {
+        SceneManager.LoadScene("RaptorDiagnose 1");
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {

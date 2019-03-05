@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class TargetHandler : MonoBehaviour, IDropHandler
+public class needle_target : MonoBehaviour, IDropHandler
 {
     //references the instructions panel 
     public GameObject Instructions;
@@ -27,9 +27,8 @@ public class TargetHandler : MonoBehaviour, IDropHandler
         if (!item)
         {
             //gets the item being dragged, sets parent to the current transform
-            draggable.itemBeingDragged.transform.SetParent(transform);
-            //if object in target slot, change to true 
-            draggable.slot = true;
+            needle_drag.itemBeingDragged.transform.SetParent(transform);
+
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
         }
