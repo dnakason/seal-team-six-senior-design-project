@@ -7,7 +7,9 @@ public class TargetHandler : MonoBehaviour, IDropHandler
 {
     //references the instructions panel 
     public GameObject Instructions;
+
     public GameObject item
+
     {
         get
         {
@@ -34,5 +36,8 @@ public class TargetHandler : MonoBehaviour, IDropHandler
             Instructions.gameObject.SetActive(false);
         }
     }
+
+   
+
 
 }

@@ -10,7 +10,18 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     Vector3 startPosition;
     //stores the parent of the game object
     Transform startParent;
- 
+    //used to start animation
+    public static bool slot = false;
+    //references needle animator
+    public Animator animator;
+    public GameObject clip_board;
+
+    public void play_clipboard()
+    {
+        Animator anim = clip_board.GetComponent<Animator>();
+        anim.SetBool("play", true);
+
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -44,5 +55,10 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
 
+    void Update()
+    {
+        //checks if object in target slot,starts animation if true
+        animator.SetBool("in_slot", slot);
+    }
 
 }

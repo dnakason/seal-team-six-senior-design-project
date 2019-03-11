@@ -31,6 +31,10 @@ public class needle_target : MonoBehaviour, IDropHandler
 
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
+            //if object in target slot, change to true 
+            needle_drag.slot = true;
+            //hides the instructions panel
+            Instructions.gameObject.SetActive(false);
         }
     }
 
