@@ -12,6 +12,7 @@ public class glucose_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     Transform startParent;
    
     public GameObject clip_board;
+    public GameObject glucose_target;
 
 
     public void play_clipboard()
@@ -37,6 +38,8 @@ public class glucose_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     {
         //position of game object follows mouse position 
         transform.position = eventData.position;
+        //plays glucose target help animation
+        glucose_target.GetComponent<Animator>().SetBool("targetHelp", true);
     }
 
     public void OnEndDrag(PointerEventData eventData)

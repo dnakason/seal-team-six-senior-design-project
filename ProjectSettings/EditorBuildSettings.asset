@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Raptor/RaptorDiagnose5.unity
     guid: b345a9b5ce505409798b0f36411bc080
+  - enabled: 1
+    path: Assets/Scenes/Raptor/RaptorDiagnose6.unity
+    guid: d3e81fe173ca145f4afe5bd2d3d3ad3b
+  - enabled: 1
+    path: Assets/Scenes/Raptor/RaptorTreatment1.unity
+    guid: d7623cb55f53f4c4f8df239757cbf941
   m_configObjects: {}

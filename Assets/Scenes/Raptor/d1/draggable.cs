@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 
@@ -15,7 +17,11 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     //references weight scale animator
     public Animator animator;
     public GameObject clip_board;
-   
+
+    //references target gameobject
+    public GameObject target;
+
+
 
     public void play_clipboard()
     {
@@ -23,6 +29,7 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         anim.SetBool("play", true);
         
     }
+
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -34,17 +41,22 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         GetComponent<CanvasGroup>().blocksRaycasts = false;
         transform.SetParent(transform.root);
 
+        //starts the target help animation 
+        target.GetComponent<Animator>().SetBool("targetHelp", true);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         //position of game object follows mouse position 
         transform.position = eventData.position;
+            
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+
         itemBeingDragged = null;
+
 
         //snaps object back to original slot if not over the target slot 
         if (transform.parent == startParent || transform.parent == transform.root)
@@ -54,11 +66,19 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         }
 
         GetComponent<CanvasGroup>().blocksRaycasts = true;
+        
+
     }
 
     void Update()
     {
-        //checks if object in target slot,starts animation if true
+        //checks if object in target slot,starts weight animation if true
         animator.SetBool("in_slot", slot);
+
+
     }
+
+
+
+
 }

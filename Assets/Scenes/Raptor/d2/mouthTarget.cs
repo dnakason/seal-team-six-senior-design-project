@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 
 public class mouthTarget : EventTrigger
@@ -15,7 +16,12 @@ public class mouthTarget : EventTrigger
         if(magDrag.itemBeingDragged != null)
         {
             mouth = true;
-
+            GetComponent<Animator>().enabled = false;
+            //changes the transparency of the target to 0; its defualt state 
+            Image img = GetComponent<Image>();
+            Color c = img.color;
+            c.a = 0;
+            img.color = c;
         }
        
     }

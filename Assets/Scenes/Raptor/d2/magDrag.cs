@@ -13,6 +13,9 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     //references clipboard game object
     public GameObject clip_board;
 
+    public GameObject mouth_target;
+    public GameObject flipper_target;
+
     //references instructions game object
     public GameObject Instructions;
 
@@ -41,6 +44,18 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     {
         //position of game object follows mouse position 
         transform.position = eventData.position;
+
+        //if user hasn't hovered over flipper, play flipper target help
+        if (flipperTarget.flipper == false) {
+            flipper_target.GetComponent<Animator>().SetBool("targetHelp", true);
+        }
+
+        //if user has hovered over flipper but not the mouth, play mouth target help
+        else if (flipperTarget.flipper == true && mouthTarget.mouth == false)
+        {
+            mouth_target.GetComponent<Animator>().SetBool("targetHelp", true);
+        }
+
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -59,6 +74,7 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     public void Update()
     {
+        //if magnifying glass hovered over both mouth and flipper, play clipboard animation
         if(mouthTarget.mouth && flipperTarget.flipper)
         {
             //hides the instructions panel

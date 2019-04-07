@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class needle_target : MonoBehaviour, IDropHandler
 {
@@ -26,6 +27,15 @@ public class needle_target : MonoBehaviour, IDropHandler
         //if we dont have an item in the target, accept new item
         if (!item)
         {
+            //stops target help animation from playing 
+            GetComponent<Animator>().enabled = false;
+
+            //changes the transparency of the target to 0; its defualt state 
+            Image img = GetComponent<Image>();
+            Color c = img.color;
+            c.a = 0;
+            img.color = c;
+
             //gets the item being dragged, sets parent to the current transform
             needle_drag.itemBeingDragged.transform.SetParent(transform);
 

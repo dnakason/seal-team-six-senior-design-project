@@ -36,7 +36,10 @@ public class xray_target : MonoBehaviour, IDropHandler
             xray_drag.slot = true;
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
+
+            //brings x-ray onto seal sprite 
             XRay.GetComponent<Animator>().SetBool("x_ray", true);
+            //changes raptor animation once the x-ray is ontop
             Raptor.GetComponent<Animator>().SetBool("raptor_xray",true);
         }
     }

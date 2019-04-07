@@ -201,6 +201,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip_board: {fileID: 837302396817648160}
+  mouth_target: {fileID: 897492832}
+  flipper_target: {fileID: 562985312}
   Instructions: {fileID: 87205340}
 --- !u!225 &15958146
 CanvasGroup:
@@ -499,6 +501,7 @@ GameObject:
   - component: {fileID: 562985315}
   - component: {fileID: 562985314}
   - component: {fileID: 562985316}
+  - component: {fileID: 562985317}
   m_Layer: 5
   m_Name: Flipper Target
   m_TagString: Untagged
@@ -522,8 +525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -61, y: 285.35}
-  m_SizeDelta: {x: 177.19995, y: 129.29999}
+  m_AnchoredPosition: {x: -77.6, y: 285.35}
+  m_SizeDelta: {x: 210.5, y: 129.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &562985314
 MonoBehaviour:
@@ -538,7 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 0.09411765, b: 0.015686275, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -576,6 +579,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Delegates: []
   delegates: []
+--- !u!95 &562985317
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562985312}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 774e1553751e44e1498f484740f9c43b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &591858585
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +882,7 @@ GameObject:
   - component: {fileID: 897492835}
   - component: {fileID: 897492834}
   - component: {fileID: 897492836}
+  - component: {fileID: 897492837}
   m_Layer: 5
   m_Name: Mouth Target
   m_TagString: Untagged
@@ -883,8 +906,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 22.4, y: -231.4}
-  m_SizeDelta: {x: 139.4, y: 104}
+  m_AnchoredPosition: {x: 3.7, y: -231.4}
+  m_SizeDelta: {x: 176.8, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897492834
 MonoBehaviour:
@@ -899,7 +922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 0.09411765, b: 0.015686275, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -937,6 +960,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Delegates: []
   delegates: []
+--- !u!95 &897492837
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897492832}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 774e1553751e44e1498f484740f9c43b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1119788103
 GameObject:
   m_ObjectHideFlags: 0

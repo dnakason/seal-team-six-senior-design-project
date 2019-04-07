@@ -16,6 +16,8 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public Animator animator;
     public GameObject clip_board;
 
+    public GameObject needle_target;
+
     public void play_clipboard()
     {
         Animator anim = clip_board.GetComponent<Animator>();
@@ -39,6 +41,8 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
         //position of game object follows mouse position 
         transform.position = eventData.position;
+        //starts needle help animation 
+        needle_target.GetComponent<Animator>().SetBool("targetHelp", true);
     }
 
     public void OnEndDrag(PointerEventData eventData)
