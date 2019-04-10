@@ -34,7 +34,8 @@ public class buttonSelect : MonoBehaviour
 
    IEnumerator button1_action()
     {
-        //disables the other buttons
+        //disables all buttons
+        button1.interactable = false;
         button2.interactable = false;
         button3.interactable = false;
 
@@ -46,13 +47,20 @@ public class buttonSelect : MonoBehaviour
         //changes color of buttont to default
         button1.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
 
-        //enables other buttons
+        //enables all buttons
+        button1.interactable = true;
         button2.interactable = true;
         button3.interactable = true;
     }
 
+    //This is the correct Answer
     IEnumerator button2_action()
     {
+        //disables all buttons
+        button1.interactable = false;
+        button2.interactable = false;
+        button3.interactable = false;
+
         //changes button color to green 
         button2.GetComponent<Image>().color = new Color32(98, 181, 93, 255);
         title.text = "Good Job!";
@@ -63,15 +71,20 @@ public class buttonSelect : MonoBehaviour
 
     IEnumerator button3_action()
     {
+        //disables all buttons
         button1.interactable = false;
         button2.interactable = false;
+        button3.interactable = false;
 
         button3.GetComponent<Image>().color = new Color32(217, 69, 70, 255);
         title.text = "Oops. Try Again!";
         yield return new WaitForSeconds(3);
         title.text = "Make your Diagnosis";
         button3.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+
+        //enables all buttons
         button1.interactable = true;
         button2.interactable = true;
+        button3.interactable = true;
     }
 }
