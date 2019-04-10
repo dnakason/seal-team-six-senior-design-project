@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.800049, y: 136.90015}
-  m_SizeDelta: {x: 262.4, y: 58.7}
+  m_AnchoredPosition: {x: -13.800049, y: 144.4}
+  m_SizeDelta: {x: 262.4, y: 43.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &25540707
 MonoBehaviour:
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'RESULTS:'
+  m_Text: Examination Results
 --- !u!222 &25540708
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1595,7 +1595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 250.4, y: -650}
+  m_AnchoredPosition: {x: 61, y: -646}
   m_SizeDelta: {x: 280.5, y: 217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135246788
@@ -1987,8 +1987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 103, y: -415.3}
-  m_SizeDelta: {x: 909, y: 830.6}
+  m_AnchoredPosition: {x: 26.4, y: -448.61}
+  m_SizeDelta: {x: 974.7, y: 759.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641849027
 MonoBehaviour:
@@ -2010,7 +2010,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300002, guid: d0c4d17792e8c44a48b2b15383417efd, type: 3}
+  m_Sprite: {fileID: 21300002, guid: af68f08f60bc746e2b8193ee6c1b1743, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2352,7 +2352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.55586594}
-  m_AnchoredPosition: {x: 14.2, y: 0.5}
+  m_AnchoredPosition: {x: 14.2, y: 14}
   m_SizeDelta: {x: 332.9, y: 95.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982066050
