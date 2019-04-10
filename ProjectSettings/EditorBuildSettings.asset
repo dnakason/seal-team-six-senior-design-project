@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Raptor/RaptorTreatment1.unity
     guid: d7623cb55f53f4c4f8df239757cbf941
+  - enabled: 1
+    path: Assets/Scenes/Roma/RomaDiagnose.unity
+    guid: 67b32a21dd84f423cb0a8e726fdb686a
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose.unity
+    guid: 7241e69adfa22444a8df7fa5d73752b6
   m_configObjects: {}
