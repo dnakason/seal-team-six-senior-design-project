@@ -1874,6 +1874,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229636272}
   m_CullTransparentMesh: 0
+--- !u!1 &1509595228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509595229}
+  m_Layer: 0
+  m_Name: RaptorMovements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509595229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509595228}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 68.05401, y: 16.945744, z: -18.055046}
+  m_LocalScale: {x: 1.7614679, y: 1.7614679, z: 1.7614679}
+  m_Children:
+  - {fileID: 1641849026}
+  m_Father: {fileID: 1765676416}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549398161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,8 +1995,9 @@ GameObject:
   - component: {fileID: 1641849026}
   - component: {fileID: 1641849028}
   - component: {fileID: 1641849027}
+  - component: {fileID: 1641849029}
   m_Layer: 5
-  m_Name: Raptor
+  m_Name: RaptorBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1978,17 +2010,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641849025}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10.25}
+  m_LocalScale: {x: 0.5677083, y: 0.5677083, z: 0.5677083}
   m_Children: []
-  m_Father: {fileID: 1765676416}
-  m_RootOrder: 2
+  m_Father: {fileID: 1509595229}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 26.4, y: -448.61}
-  m_SizeDelta: {x: 974.7, y: 759.4}
+  m_AnchoredPosition: {x: -22.1, y: 6.5}
+  m_SizeDelta: {x: 706.6, y: 587.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641849027
 MonoBehaviour:
@@ -2010,7 +2042,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300002, guid: af68f08f60bc746e2b8193ee6c1b1743, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2027,6 +2059,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641849025}
   m_CullTransparentMesh: 0
+--- !u!95 &1641849029
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641849025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6831944a4323341bc99374dbab986d88, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1765676412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,7 +2171,7 @@ RectTransform:
   m_Children:
   - {fileID: 720459952}
   - {fileID: 206801772}
-  - {fileID: 1641849026}
+  - {fileID: 1509595229}
   - {fileID: 305323880}
   - {fileID: 1135246787}
   - {fileID: 87205341}
