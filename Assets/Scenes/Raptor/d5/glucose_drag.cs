@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
-
+using System.Collections;
 
 public class glucose_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -19,6 +19,14 @@ public class glucose_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     {
         Animator anim = clip_board.GetComponent<Animator>();
         anim.SetBool("play", true);
+        StartCoroutine(hide_clipboard());
+    }
+
+    IEnumerator hide_clipboard()
+    {
+        yield return new WaitForSeconds(5);
+        Animator anim = clip_board.GetComponent<Animator>();
+        anim.Play("hide_clipboard");
 
     }
 

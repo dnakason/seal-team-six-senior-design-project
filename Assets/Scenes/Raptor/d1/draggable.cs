@@ -13,7 +13,7 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     //stores the parent of the game object
     Transform startParent;
     //used to start animation
-    public static bool slot = false;
+    public static bool slot;
     //references weight scale animator
     public Animator animator;
     public GameObject clip_board;
@@ -27,9 +27,16 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     {
         Animator anim = clip_board.GetComponent<Animator>();
         anim.SetBool("play", true);
-        
+        StartCoroutine(hide_clipboard());
     }
 
+    IEnumerator hide_clipboard()
+    {
+        yield return new WaitForSeconds(5);
+        Animator anim = clip_board.GetComponent<Animator>();
+        anim.Play("hide_clipboard");
+
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -79,6 +86,9 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     }
 
 
-
+    void Start()
+    {
+        slot = false;
+    }
 
 }

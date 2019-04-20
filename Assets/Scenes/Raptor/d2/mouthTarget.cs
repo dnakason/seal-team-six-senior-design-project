@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class mouthTarget : EventTrigger
 {
     //used to check if the magnifying glass has been over the mouth 
-    public static bool mouth = false;
+    public static bool mouth;
 
     public override void OnPointerEnter(PointerEventData eventData)
     {
