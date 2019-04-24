@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -22,6 +23,14 @@ public class needle_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
         Animator anim = clip_board.GetComponent<Animator>();
         anim.SetBool("play", true);
+        StartCoroutine(hide_clipboard());
+    }
+
+    IEnumerator hide_clipboard()
+    {
+        yield return new WaitForSeconds(5);
+        Animator anim = clip_board.GetComponent<Animator>();
+        anim.Play("hide_clipboard");
 
     }
 

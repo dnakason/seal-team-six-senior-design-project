@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/Scenes/Raptor/RaptorDiagnose3.unity
+Assets/Scenes/Raptor/RaptorDiagnose2.unity

@@ -14,4 +14,9 @@ public class clipBoard : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void hide_clipboard()
+    {
+        CLIPBOARD.Play("hide_clipboard");
+    }
 }

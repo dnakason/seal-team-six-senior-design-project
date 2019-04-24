@@ -149,5 +149,9 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             play_clipboard();
         }
     }
-
+    void Start()
+    {
+        flipperTarget.flipper = false;
+        mouthTarget.mouth = false;
+    }
 }

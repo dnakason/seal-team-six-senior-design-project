@@ -47,6 +47,7 @@ public class TargetHandler : MonoBehaviour, IDropHandler
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
 
+
         }
     }
 
