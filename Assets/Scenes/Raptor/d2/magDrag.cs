@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 
 public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
@@ -18,6 +20,26 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     //references instructions game object
     public GameObject Instructions;
+
+
+
+    // references raptor to change animations
+    public GameObject Raptor;
+    // references large righthand Magnified zoom
+    public Image MagGlassZoom;
+    public Image MagGlassZoomFlipper;
+
+
+    public Image ZoomShade;
+    public Image ZoomShadeFlipper;
+
+
+    public int mouthVisit = 0;
+    public int flipperVisit = 0;
+
+
+
+
 
     //plays clip board animation
     public void play_clipboard()
@@ -45,16 +67,57 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         //position of game object follows mouse position 
         transform.position = eventData.position;
 
+        if (mouthTarget.mouth)
+        {
+
+            Raptor.GetComponent<Animator>().Play("RaptorMouthBlink(2)");  // opens mouth --> continues blink
+            MagGlassZoom.enabled = true;                                  // the zoomed in Magnifying glass is now enabled to be seen
+            ZoomShade.enabled = true;                                     // the shade for the magnifying glass is also enabled to be seen
+            mouthVisit += 1; // increment visit of mouth
+        }
+
+        if (flipperTarget.flipper)
+        {
+
+            MagGlassZoomFlipper.enabled = true;
+            ZoomShadeFlipper.enabled = true;
+            flipperVisit += 1; // increment visit of flipper
+
+        }
+
+        if (!mouthTarget.mouth)
+        {
+            MagGlassZoom.enabled = false;
+            Raptor.GetComponent<Animator>().Play("RaptorBlink(scene1)");
+            MagGlassZoom.enabled = false;
+            ZoomShade.enabled = false;
+        }
+
+
+        if (!flipperTarget.flipper)
+        {
+           
+            MagGlassZoomFlipper.enabled = false;
+            ZoomShadeFlipper.enabled = false;
+
+        }
+
+
         //if user hasn't hovered over flipper, play flipper target help
         if (flipperTarget.flipper == false) {
             flipper_target.GetComponent<Animator>().SetBool("targetHelp", true);
         }
 
         //if user has hovered over flipper but not the mouth, play mouth target help
-        else if (flipperTarget.flipper == true && mouthTarget.mouth == false)
+        if (flipperTarget.flipper == true && mouthTarget.mouth == false)
         {
             mouth_target.GetComponent<Animator>().SetBool("targetHelp", true);
         }
+
+
+
+
+
 
     }
 
@@ -75,8 +138,12 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     public void Update()
     {
         //if magnifying glass hovered over both mouth and flipper, play clipboard animation
-        if(mouthTarget.mouth && flipperTarget.flipper)
+        //if(mouthTarget.mouth && flipperTarget.flipper)
+        if(mouthVisit > 0 && flipperVisit > 0)
         {
+
+            print("Done with scene!");
+
             //hides the instructions panel
             Instructions.gameObject.SetActive(false);
             play_clipboard();

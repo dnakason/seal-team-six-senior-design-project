@@ -10,12 +10,21 @@ public class flipperTarget : EventTrigger
     public static bool flipper = false;
 
 
+    public override void OnPointerExit(PointerEventData eventData)
+    {
+        flipper = false;
+    }
+
+
     public override void OnPointerEnter(PointerEventData eventData)
     {
         //if the user is dragging the magnifying glass
         if (magDrag.itemBeingDragged != null)
         {
             flipper = true;
+            print(" >>> magnifying glass on flipper target");
+
+
             GetComponent<Animator>().enabled = false;
             //changes the transparency of the target to 0; its defualt state 
             Image img = GetComponent<Image>();
