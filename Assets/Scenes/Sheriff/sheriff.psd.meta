@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 193caef7674214e1daece3a8d0ed98c8
+guid: 89f7b9545e0b2481d95f7de24f2e2b45
 TextureImporter:
   fileIDToRecycleName:
     21300000: sheriff_0
@@ -82,39 +82,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -133,7 +100,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1390e7dbc0c848f1b48ad2ae6bfc17b
+      spriteID: 477e06a65471642a5a136103187474fb
       vertices: []
       indices: 
       edges: []
@@ -153,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c3e3286be6464d66a0785c57c8c43ec
+      spriteID: 1c65635eac0734ef7bca01df0e0b5b46
       vertices: []
       indices: 
       edges: []
@@ -161,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 831758724db3541508f36c6b4ec5550d
+    spriteID: d5e0ef254489948768fe3ee9925496aa
     vertices: []
     indices: 
     edges: []

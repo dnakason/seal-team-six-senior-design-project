@@ -6,9 +6,7 @@ using UnityEngine.UI;
 
 public class flipperTarget : EventTrigger
 {
-
     //used to check if magnifying glass has been over flipper
-
     public static bool flipper = false;
 
 
@@ -16,9 +14,6 @@ public class flipperTarget : EventTrigger
     {
         flipper = false;
     }
-
-    public static bool flipper;
-
 
 
     public override void OnPointerEnter(PointerEventData eventData)

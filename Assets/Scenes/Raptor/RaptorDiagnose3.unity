@@ -807,13 +807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Instructions: {fileID: 87205340}
   XRay: {fileID: 1145162773}
-<<<<<<< HEAD
-  Raptor: {fileID: 1204869455}
---- !u!1 &591858585
-=======
   Raptor: {fileID: 0}
 --- !u!1 &333896895
->>>>>>> f5c44a5c14504a5258641a87e5ca2154a441f7d9
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1635,7 +1630,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 50.95, y: -1161.2}
-  m_SizeDelta: {x: 343.4, y: 377.1}
+  m_SizeDelta: {x: 1252.9, y: 1242.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145162775
 MonoBehaviour:
@@ -1757,7 +1752,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6831944a4323341bc99374dbab986d88, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -1783,7 +1778,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
