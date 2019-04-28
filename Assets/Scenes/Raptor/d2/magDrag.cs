@@ -20,6 +20,7 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     //references instructions game object
     public GameObject Instructions;
+    public GameObject Instruction_texts;
 
 
 
@@ -141,11 +142,13 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         //if(mouthTarget.mouth && flipperTarget.flipper)
         if(mouthVisit > 0 && flipperVisit > 0)
         {
-
-            print("Done with scene!");
+        
 
             //hides the instructions panel
-            Instructions.gameObject.SetActive(false);
+            //Instructions.gameObject.SetActive(false); 
+            Instruction_texts.gameObject.GetComponent<Text>().text = "Record your observations of Raptor on the clipboard.";
+
+             
             play_clipboard();
         }
     }

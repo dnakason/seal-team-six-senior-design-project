@@ -8,6 +8,8 @@ public class SubmitManager : MonoBehaviour
 {
     public Dropdown dropdown;
     public GameObject clipboard;
+   
+
 
     //plays the hide clipboard animation and changes the scene 
     IEnumerator hide_clipboard()
@@ -15,6 +17,15 @@ public class SubmitManager : MonoBehaviour
         clipboard.GetComponent<Animator>().Play("hide_clipboard");
         yield return new WaitForSeconds(3);
     }
+
+    IEnumerator change_scene()
+    {
+
+        yield return new WaitForSeconds(3);
+       
+
+    }
+
 
     //used to determine if takes user to next process or the same one
     public void notice(){
@@ -24,8 +35,9 @@ public class SubmitManager : MonoBehaviour
         {
             StartCoroutine(hide_clipboard());
         }
-        else
+        else if (index != 0)            // index 0 should not be an option at all (cant submit with '--')
         {
+        
             SceneManager.LoadScene("RaptorDiagnose2");
         }
         
