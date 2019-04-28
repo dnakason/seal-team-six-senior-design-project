@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/CharacterSelection/SelectStoryScene.unity
     guid: 3e48c8a7af280764685c250d395286d1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Shen's Scenes/StartMenu.unity
-    guid: 174307f061b6b459084fee2bbcf53504
-  - enabled: 1
-    path: Assets/Scenes/Shen's Scenes/Seal 1.unity
-    guid: 6c18dcef3108045bda5258d1670f4030
+    path: Assets/Scenes/Mimi/MimiDiagnose.unity
+    guid: 568421a5e95d9457b8998e34a63f6ee1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Raptor/RaptorDiagnose.unity
     guid: 361a5ad27e0054017baf51d871563406

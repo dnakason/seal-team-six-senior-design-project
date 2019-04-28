@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Mimi_Level : MonoBehaviour
 {
     //loads the Raptor Scene
-   public void LoadRaptorScene()
+   public void LoadMimiScene()
     {
         SceneManager.LoadScene("MimiDiagnose");
     }
