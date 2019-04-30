@@ -13,7 +13,6 @@ public class xray_drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     //used to start animation
     public static bool slot = false;
 
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         //sets item being dragged to the current game object

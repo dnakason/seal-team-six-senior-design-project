@@ -22,7 +22,6 @@ public class flipperTarget : EventTrigger
         if (magDrag.itemBeingDragged != null)
         {
             flipper = true;
-            print(" >>> magnifying glass on flipper target");
 
 
             GetComponent<Animator>().enabled = false;

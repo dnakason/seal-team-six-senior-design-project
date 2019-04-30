@@ -8,12 +8,20 @@ public class xSubmitControl : MonoBehaviour
 {
     public Dropdown dropdown;
     public GameObject clipboard;
+    public GameObject instructions;
 
     //plays the hide clipboard animation and changes the scene 
     IEnumerator hide_clipboard()
     {
         clipboard.GetComponent<Animator>().Play("hide_clipboard");
         yield return new WaitForSeconds(3);
+
+    }
+
+    IEnumerator change_scene()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("RaptorDiagnose3");
 
     }
 
@@ -26,10 +34,13 @@ public class xSubmitControl : MonoBehaviour
         {
             StartCoroutine(hide_clipboard());
         }
-        else
+        else if(index != 0)
         {
-            SceneManager.LoadScene("RaptorDiagnose3");
+            instructions.gameObject.GetComponent<Text>().text = "Not Quite. Try Again.";
+            StartCoroutine(change_scene());
         }
 
     }
+
+
 }

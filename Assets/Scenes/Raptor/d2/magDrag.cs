@@ -19,7 +19,6 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     public GameObject flipper_target;
 
     //references instructions game object
-    public GameObject Instructions;
     public GameObject Instruction_texts;
 
 
@@ -38,7 +37,7 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     public int mouthVisit = 0;
     public int flipperVisit = 0;
 
-
+    public static bool wrongAnswer;
 
 
 
@@ -97,12 +96,11 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
         if (!flipperTarget.flipper)
         {
-           
+
             MagGlassZoomFlipper.enabled = false;
             ZoomShadeFlipper.enabled = false;
 
         }
-
 
         //if user hasn't hovered over flipper, play flipper target help
         if (flipperTarget.flipper == false) {
@@ -114,10 +112,6 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         {
             mouth_target.GetComponent<Animator>().SetBool("targetHelp", true);
         }
-
-
-
-
 
 
     }
@@ -136,20 +130,26 @@ public class magDrag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
 
+    public void Start()
+    {
+        wrongAnswer = false;
+    }
+
     public void Update()
     {
+       
         //if magnifying glass hovered over both mouth and flipper, play clipboard animation
         //if(mouthTarget.mouth && flipperTarget.flipper)
-        if(mouthVisit > 0 && flipperVisit > 0)
+        if (mouthVisit > 0 && flipperVisit > 0)
         {
-        
-
-            //hides the instructions panel
-            //Instructions.gameObject.SetActive(false); 
             Instruction_texts.gameObject.GetComponent<Text>().text = "Record your observations of Raptor on the clipboard.";
 
              
             play_clipboard();
+        }
+        if (wrongAnswer)
+        {
+            Instruction_texts.gameObject.GetComponent<Text>().text = "Not Quite. Try Again.";
         }
     }
 

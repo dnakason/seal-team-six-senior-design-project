@@ -22,7 +22,7 @@ public class SubmitManager : MonoBehaviour
     {
 
         yield return new WaitForSeconds(3);
-       
+        SceneManager.LoadScene("RaptorDiagnose2");
 
     }
 
@@ -37,8 +37,8 @@ public class SubmitManager : MonoBehaviour
         }
         else if (index != 0)            // index 0 should not be an option at all (cant submit with '--')
         {
-        
-            SceneManager.LoadScene("RaptorDiagnose2");
+            magDrag.wrongAnswer = true;
+            StartCoroutine(change_scene());
         }
         
     }

@@ -30,13 +30,11 @@ public class mouthTarget : EventTrigger, IDropHandler
     public override void OnPointerEnter(PointerEventData eventData)
     {
 
-        Debug.Log("The cursor entered the selectable UI element.");
 
         //if the user is dragging the magnifying glass
         if (magDrag.itemBeingDragged != null)
         {
             mouth = true;
-            print(" >>> magnifying glass on mouth target");
 
 
 
