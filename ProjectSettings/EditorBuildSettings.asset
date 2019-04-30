@@ -11,15 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/CharacterSelection/SelectStoryScene.unity
     guid: 3e48c8a7af280764685c250d395286d1
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Mimi/MimiDiagnose.unity
     guid: 568421a5e95d9457b8998e34a63f6ee1
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Raptor/RaptorDiagnose.unity
     guid: 361a5ad27e0054017baf51d871563406
@@ -46,5 +40,20 @@ EditorBuildSettings:
     guid: 67b32a21dd84f423cb0a8e726fdb686a
   - enabled: 1
     path: Assets/Scenes/Sheriff/SheriffDiagnose.unity
-    guid: 7241e69adfa22444a8df7fa5d73752b6
+    guid: 18a7a4b81a6794009ba69c4d422ead5a
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose2.unity
+    guid: 89c12aae9092d41a696474740d4f67cb
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose3.unity
+    guid: f5c145a1f4fcb44a29824a17631544e3
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose4.unity
+    guid: d7012b07748994bf4b8c4e15a110b16b
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose5.unity
+    guid: a989446b07b924ffab4f9f222981f4ec
+  - enabled: 1
+    path: Assets/Scenes/Sheriff/SheriffDiagnose6.unity
+    guid: 78303da5663b7468090d2af2571e9a27
   m_configObjects: {}
