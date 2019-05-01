@@ -870,8 +870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -113.99957, y: -98.04999}
-  m_SizeDelta: {x: -1739, y: 183.9}
+  m_AnchoredPosition: {x: -214, y: -142}
+  m_SizeDelta: {x: -1739, y: 166.6}
   m_Pivot: {x: 0.4999998, y: 0.5}
 --- !u!114 &1135246788
 MonoBehaviour:
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135246786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da3e8a4b4aec1451ba001c2db0aa096a, type: 3}
+  m_Script: {fileID: 11500000, guid: d1efc0dd3636d4734a7365e2854b9f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Instructions: {fileID: 87205340}
@@ -943,7 +943,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 150}
+  m_CellSize: {x: 95, y: 150}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1002,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 143, y: -59.00995}
+  m_AnchoredPosition: {x: 143, y: -59.01001}
   m_SizeDelta: {x: 191.90002, y: 117.400024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1199738828
@@ -1200,8 +1200,8 @@ GameObject:
   - component: {fileID: 1221154552}
   - component: {fileID: 1221154557}
   - component: {fileID: 1221154556}
-  - component: {fileID: 1221154555}
   - component: {fileID: 1221154554}
+  - component: {fileID: 1221154555}
   - component: {fileID: 1221154553}
   m_Layer: 5
   m_Name: needle
@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1221154551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3d74174a94f47c7807cb44ed2abdf5, type: 3}
+  m_Script: {fileID: 11500000, guid: 251619e8861a24c08812687afaedfefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1221154553}
@@ -1652,8 +1652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -22.1, y: 6.5}
-  m_SizeDelta: {x: 706.6, y: 587.6}
+  m_AnchoredPosition: {x: -56, y: 9.8}
+  m_SizeDelta: {x: 883.2, y: 576.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1801861887
 Animator:
@@ -1665,7 +1665,7 @@ Animator:
   m_GameObject: {fileID: 1801861885}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6831944a4323341bc99374dbab986d88, type: 2}
+  m_Controller: {fileID: 9100000, guid: 77563f5b222734708be6fd4fc735bfce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1694,7 +1694,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89f7b9545e0b2481d95f7de24f2e2b45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2146,7 +2146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 31.8 pounds
+  m_Text: 129 pounds
 --- !u!224 &7242328172690778767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2383,7 +2383,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No hooks swallowed
+  m_Text: Nothing wrong
 --- !u!224 &7242328173697250611
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2691,7 +2691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mouth & flipper injured
+  m_Text: Entangled bag
 --- !u!224 &7242328174416471395
 RectTransform:
   m_ObjectHideFlags: 0

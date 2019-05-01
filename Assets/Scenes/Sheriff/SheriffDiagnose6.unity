@@ -441,7 +441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What is wrong with Raptor?
+  m_Text: What is wrong with Sheriff?
 --- !u!222 &174733581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Broken bone
+  m_Text: Injured
 --- !u!222 &315481988
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Overweight '
+  m_Text: Dehydrated/Entangled bag on neck
 --- !u!222 &707292109
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467805388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a77137f9a5914fa5b0e40bf11a48098, type: 3}
+  m_Script: {fileID: 11500000, guid: 92fa471332a3c420e9dc2a853394dda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 1732387527}
@@ -1902,7 +1902,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dehydrated and Injured mouth and flipper.
+  m_Text: Broken flipper
 --- !u!222 &1607920604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2045,8 +2045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -22.1, y: 6.5}
-  m_SizeDelta: {x: 706.6, y: 587.6}
+  m_AnchoredPosition: {x: -56, y: 9.8}
+  m_SizeDelta: {x: 883.2, y: 576.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1682352505
 Animator:
@@ -2058,7 +2058,7 @@ Animator:
   m_GameObject: {fileID: 1682352503}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6831944a4323341bc99374dbab986d88, type: 2}
+  m_Controller: {fileID: 9100000, guid: 77563f5b222734708be6fd4fc735bfce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2087,7 +2087,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89f7b9545e0b2481d95f7de24f2e2b45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

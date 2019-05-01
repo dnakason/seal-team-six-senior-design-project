@@ -290,6 +290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156026250}
+  - component: {fileID: 156026249}
   m_Layer: 0
   m_Name: xray results submit Manager
   m_TagString: Untagged
@@ -297,6 +298,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &156026249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156026248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4ae53835bb64163a26d8611fc5ef85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdown: {fileID: 164645216}
+  clipboard: {fileID: 8653077463518992915}
+  instructions: {fileID: 1982066048}
 --- !u!4 &156026250
 Transform:
   m_ObjectHideFlags: 0
@@ -399,9 +415,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: '---'
       m_Image: {fileID: 0}
-    - m_Text: broken bones
+    - m_Text: Nothing wrong
       m_Image: {fileID: 0}
-    - m_Text: No hooks swallowed
+    - m_Text: Plastic swallowed
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -524,7 +540,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 156026249}
         m_MethodName: notice
         m_Mode: 1
         m_Arguments:
@@ -689,6 +705,7 @@ GameObject:
   - component: {fileID: 305362061}
   - component: {fileID: 305362064}
   - component: {fileID: 305362063}
+  - component: {fileID: 305362065}
   - component: {fileID: 305362062}
   m_Layer: 5
   m_Name: x-ray target
@@ -777,6 +794,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305362060}
   m_CullTransparentMesh: 0
+--- !u!114 &305362065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305362060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca04cb09b78d46a6b757f7d576ae393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instructions: {fileID: 1982066048}
+  XRay: {fileID: 1145162773}
 --- !u!1 &333896895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,8 +1877,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -22.1, y: 6.5}
-  m_SizeDelta: {x: 706.6, y: 587.6}
+  m_AnchoredPosition: {x: -56, y: 9.8}
+  m_SizeDelta: {x: 883.2, y: 576.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1204869457
 Animator:
@@ -2097,6 +2128,7 @@ GameObject:
   - component: {fileID: 1238675689}
   - component: {fileID: 1238675691}
   - component: {fileID: 1238675690}
+  - component: {fileID: 1238675692}
   - component: {fileID: 1238675693}
   m_Layer: 5
   m_Name: x-ray icon
@@ -2161,6 +2193,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238675688}
   m_CullTransparentMesh: 0
+--- !u!114 &1238675692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238675688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d837fd24b58e54e81aab30587d5d4d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!225 &1238675693
 CanvasGroup:
   m_ObjectHideFlags: 0

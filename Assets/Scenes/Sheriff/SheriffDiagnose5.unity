@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 243, y: -248.20001}
+  m_AnchoredPosition: {x: 243, y: -248.2002}
   m_SizeDelta: {x: 361.3, y: 271.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87205342
@@ -583,8 +583,8 @@ GameObject:
   - component: {fileID: 683069925}
   - component: {fileID: 683069927}
   - component: {fileID: 683069926}
-  - component: {fileID: 683069928}
   - component: {fileID: 683069929}
+  - component: {fileID: 683069928}
   m_Layer: 5
   m_Name: drop
   m_TagString: Untagged
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 683069924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d05d090656d664e49b21965fe58d578b, type: 3}
+  m_Script: {fileID: 11500000, guid: 79f506d58bf434b4c98b0472ae91bb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   glucose_stick: {fileID: 1289716581}
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135246786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d231f90eea19f408488d9b6fad8b9728, type: 3}
+  m_Script: {fileID: 11500000, guid: 93c9bcd1604c94ce69aa295f7f09b949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Instructions: {fileID: 87205340}
@@ -1406,8 +1406,8 @@ GameObject:
   - component: {fileID: 1289716582}
   - component: {fileID: 1289716584}
   - component: {fileID: 1289716583}
-  - component: {fileID: 1289716585}
   - component: {fileID: 1289716586}
+  - component: {fileID: 1289716585}
   - component: {fileID: 1289716587}
   m_Layer: 5
   m_Name: glucose
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289716581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d10915dd8b3c494cb04c89ec26820f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ba4bd05e4a0d45e69da736aeb50367e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clip_board: {fileID: 7242328174515508868}
@@ -2027,7 +2027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 143, y: -59.00995}
+  m_AnchoredPosition: {x: 143, y: -59.009766}
   m_SizeDelta: {x: 191.90002, y: 117.400024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958633707
@@ -2246,8 +2246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -22.1, y: 6.5}
-  m_SizeDelta: {x: 706.6, y: 587.6}
+  m_AnchoredPosition: {x: -56, y: 9.8}
+  m_SizeDelta: {x: 883.2, y: 576.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2096472564
 Animator:
@@ -2259,7 +2259,7 @@ Animator:
   m_GameObject: {fileID: 2096472562}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6831944a4323341bc99374dbab986d88, type: 2}
+  m_Controller: {fileID: 9100000, guid: 77563f5b222734708be6fd4fc735bfce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2288,7 +2288,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e98f0eba3e3c24423a95a3f983eeea56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89f7b9545e0b2481d95f7de24f2e2b45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2316,8 +2316,8 @@ GameObject:
   - component: {fileID: 2121703188}
   - component: {fileID: 2121703190}
   - component: {fileID: 2121703189}
-  - component: {fileID: 2121703191}
   - component: {fileID: 2121703192}
+  - component: {fileID: 2121703191}
   m_Layer: 5
   m_Name: blood_container
   m_TagString: Untagged
@@ -2409,7 +2409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121703187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7fa975393f14fd38de60cf91232f0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 37df49a7189734d2d81bfa95dcb4c4f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   drop: {fileID: 683069924}
@@ -2472,7 +2472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 31.8 pounds
+  m_Text: 129 pounds
 --- !u!224 &7242328172690778767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2709,7 +2709,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No hooks swallowed
+  m_Text: Nothing wrong
 --- !u!224 &7242328173697250611
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3017,7 +3017,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mouth & flipper injured
+  m_Text: Entangled bag
 --- !u!224 &7242328174416471395
 RectTransform:
   m_ObjectHideFlags: 0

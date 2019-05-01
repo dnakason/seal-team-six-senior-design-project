@@ -64,8 +64,9 @@ public class buttonSelect : MonoBehaviour
         //changes button color to green 
         button2.GetComponent<Image>().color = new Color32(98, 181, 93, 255);
         title.text = "Good Job!";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         diagnostics.GetComponent<Animator>().SetBool("hide", true);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("RaptorTreatment1");
     }
 
