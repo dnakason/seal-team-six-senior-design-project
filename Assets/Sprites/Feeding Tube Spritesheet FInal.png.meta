@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 5aff1f5b79a35494893f63f6681ee66b
+guid: 9499d7de03f0c4660b156f4e49230471
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tube spritesheet_0
-    21300002: tube spritesheet_1
-    21300004: tube spritesheet_2
-    21300006: tube spritesheet_3
+    21300000: Feeding Tube Spritesheet FInal_0
+    21300002: Feeding Tube Spritesheet FInal_1
+    21300004: Feeding Tube Spritesheet FInal_2
+    21300006: Feeding Tube Spritesheet FInal_3
+    21300008: Feeding Tube Spritesheet FInal_4
+    21300010: Feeding Tube Spritesheet FInal_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +42,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -96,7 +98,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: Android
+    buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -107,7 +109,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: tvOS
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,81 +134,121 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tube spritesheet_0
+      name: Feeding Tube Spritesheet FInal_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 61
-        width: 368
-        height: 491
+        x: 512
+        y: 582
+        width: 5
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eee8d5d6d4d74ad89063f82d42f99c5
+      spriteID: ac27cd458ec3b43658961f292b7c4a54
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube spritesheet_1
+      name: Feeding Tube Spritesheet FInal_1
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 108
-        width: 340
-        height: 444
+        x: 553
+        y: 580
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4e2746dbe004aa1b10dfb40c152633
+      spriteID: 0df695614a7a048b0881ab24d94b8ddf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube spritesheet_2
+      name: Feeding Tube Spritesheet FInal_2
       rect:
         serializedVersion: 2
-        x: 1862
-        y: 147
-        width: 323
-        height: 405
+        x: 175
+        y: 0
+        width: 401
+        height: 574
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4008e9bc9b46745ff866334614fda1c3
+      spriteID: ea8d9036e82284a11bcda29ceebef99b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube spritesheet_3
+      name: Feeding Tube Spritesheet FInal_3
       rect:
         serializedVersion: 2
-        x: 2686
-        y: 183
-        width: 301
-        height: 369
+        x: 977
+        y: 0
+        width: 401
+        height: 574
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01757643f627f455a87c15ee09741734
+      spriteID: 6bf29e806675c4c84a832d37718e1bb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feeding Tube Spritesheet FInal_4
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 0
+        width: 401
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a217edba7014559923afc453727c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feeding Tube Spritesheet FInal_5
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 0
+        width: 401
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f997a80d1732a410ebadb23fa72080f7
       vertices: []
       indices: 
       edges: []
@@ -214,7 +256,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ad5777c0b31ac4d3abe1281578bfaba3
+    spriteID: 339891a431fea4ffd8ddc0a58fe57df1
     vertices: []
     indices: 
     edges: []

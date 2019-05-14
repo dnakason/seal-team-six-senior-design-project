@@ -75,6 +75,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Sheriff/SheriffDiagnose2.unity
     guid: 89c12aae9092d41a696474740d4f67cb
   - enabled: 1
+    path: Assets/Scenes/Roma/RomaTreatment1.unity
+    guid: db68bc1736bf0429b9cb5681da6389d5
+  - enabled: 1
+    path: Assets/Scenes/Roma/RomaTreatment2.unity
+    guid: 504246213043e4c6ca86096a2b71355f
+  - enabled: 1
+    path: Assets/Scenes/Roma/RomaTreatment3.unity
+    guid: 1fbb485ecb96e4d17ae2a791fa722460
+  - enabled: 1
+    path: Assets/Scenes/Roma/RomaTreatment4.unity
+    guid: 84b20d060677143d0ac851efa1a661f8
+  - enabled: 1
+    path: Assets/Scenes/Roma/RomaTreatment5.unity
+    guid: ab79f208b4edc4709b34051be6c4b149
+  - enabled: 1
     path: Assets/Scenes/Sheriff/SheriffDiagnose3.unity
     guid: f5c145a1f4fcb44a29824a17631544e3
   - enabled: 1
