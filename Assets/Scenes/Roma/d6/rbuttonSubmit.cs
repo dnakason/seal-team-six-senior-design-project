@@ -87,6 +87,6 @@ public class rbuttonSubmit : MonoBehaviour
         yield return new WaitForSeconds(2);
         diagnostics.GetComponent<Animator>().SetBool("hide", true);
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("RomaTreatment1");
+        SceneManager.LoadScene("SheriffTreatment1");
     }
 }
